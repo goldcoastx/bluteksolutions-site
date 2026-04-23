@@ -3,12 +3,9 @@ languageCode: en-us
 title: Blutek Solutions |  Managed IT, Cybersecurity & Tech Support
 theme: doks
 
-
-
-googleAnalytics: # Put in your tracking code without quotes like this: UA-XXX for universal tracking or G-XXX analytics v4 tracking
-# Disables warnings
 disableKinds:
-- taxonomy
+  - taxonomy
+
 markup:
   goldmark:
     renderer:
@@ -21,11 +18,7 @@ params:
   description:
   # Preloader ensures images are loaded before displaying to the user. If you don't want it uncomment to set it to false
   # preloader: false
-  navbarlogo:
-  # Logo (from static/images/logos/___)
-    image: logos/fresh.svg
-    link: /
-    # Default width/height. Uncomment if you need to change
+  # Default width/height. Uncomment if you need to change
     # width: 112
     # height: 28
   font:
